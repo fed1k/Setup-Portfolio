@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+main {
+  margin: 0 24px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -13,7 +17,6 @@
   height: 50px;
   margin-bottom: 30px;
   margin-top: 30px;
-  padding-left: 50px;
 }
 
 .navbar h1 {
@@ -21,7 +24,6 @@
   font-family: 'Poppins', serif;
   font-weight: 1000;
   font-size: 24px;
-  margin-left: 150px;
   align-self: center;
 }
 
@@ -29,39 +31,45 @@
   width: 35px;
   height: 15px;
   align-self: center;
-  padding-right: 15px;
-  margin-left: 100px;
 }
 
 .welcome-section {
-  position: absolute;
   background-image: url(images/Background.png);
-  background-size: 100vh;
+  background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  padding: 50px 80px 50px 80px;
-  margin-left: 100px;
 }
 
 .welcome-section h2 {
-  font-size: 50px;
+  margin-top: 2em;
   font-family: 'Poppins', serif;
-  font-weight: 1000;
-  margin-top: 1em;
-  line-height: 50px;
-  padding-left: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
 }
 
 .welcome-section p {
   font-family: 'Poppins', serif;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+  margin: 12px;
 }
 
 .welcome-section h3 {
+  display: flex;
+  align-items: center;
   font-family: 'Poppins', serif;
-  margin-top: 50px;
   color: #7f8cff;
+  position: static;
+  margin: 12px;
 }
 
 .social-icons {
