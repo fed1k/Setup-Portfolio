@@ -32,4 +32,8 @@ Contributions, issues, and feature requests are welcome!
 ## Show your support
 ​
 If you like this project you can support just by giving a like.
+<<<<<<< Updated upstream
 
+=======
+Emmanuel Paul to Everyone (10:25)
+>>>>>>> Stashed changes
