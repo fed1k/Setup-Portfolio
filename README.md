@@ -32,6 +32,4 @@ Contributions, issues, and feature requests are welcome!
 ## Show your support
 ​
 If you like this project you can support just by giving a like.
-
 Emmanuel Paul to Everyone (10:25)
-
